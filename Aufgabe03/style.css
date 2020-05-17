@@ -84,3 +84,6 @@ hr{
 #instagram:hover {
   transform: scale(1.2)
 }
+input{
+    background-color: #666666;
+}
