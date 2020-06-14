@@ -1,0 +1,58 @@
+[
+{
+    "bild": "Skateboard1.png",
+    "name": "POWELL-PERALTA",
+    "beschreibung": "Ripper One Off 8´Komplettboard",
+    "preis": 99.99,
+    "kategorie": "Skateboards"
+},
+{
+    "bild": "Skateboard2.png",
+    "name": "FLIP",
+    "beschreibung": "Team Bubble 7´Komplettboard",
+    "preis": 109.99,
+    "kategorie": "Skateboards"
+},
+{
+    "bild": "Skateboard3.png",
+    "name": "SANTA CRUZ",
+    "beschreibung": "Snakebite 8.25´Komplettboard",
+    "preis": 99.99,
+    "kategorie": "Skateboards"
+},
+{
+    "bild": "Skateboard4.png",
+    "name": "BLIND",
+    "beschreibung": "Heart white 8.25´Komplettboard",
+    "preis": 99.99,
+    "kategorie": "Skateboards"
+},
+{
+    "bild": "Skateboard5.png",
+    "name": "SANTA CRUZ",
+    "beschreibung": "Primary Hand 8´Komplettboard",
+    "preis": 99.99,
+    "kategorie": "Skateboards"
+},
+{
+    "bild": "Skateboard6.png",
+    "name": "FLIP",
+    "beschreibung": "Odyssey Logo 6.75´Komplettboard",
+    "preis": 109.99,
+    "kategorie": "Skateboards"
+},
+{
+    "bild": "Skateboard7.png",
+    "name": "ZERO",
+    "beschreibung": "Evil Eyes 7.75´Komplettboard",
+    "preis": 129.99,
+    "kategorie": "Skateboards"
+},
+{
+    "bild": "Skateboard8.png",
+    "name": "BIRDHOUSE",
+    "beschreibung": "Stage 3 Sunset 8´Komplettboard",
+    "preis": 99.99,
+    "kategorie": "Skateboards"
+}
+]
