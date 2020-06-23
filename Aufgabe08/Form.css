@@ -1,0 +1,29 @@
+body{
+    background-color:#293133;
+    color: grey;
+}
+header {
+    grid-column: span 2;
+    text-align: center;
+}
+
+div {
+    border: thin solid black;
+    margin: 1em;
+}
+h2 {
+    text-align: center;
+}
+
+#list {
+    margin-left: 1%;
+    position: absolute;
+    width: 30%;
+}
+
+#Skate {
+    margin-left: 34%;
+    position: absolute;
+    width: 30%;
+}
+
