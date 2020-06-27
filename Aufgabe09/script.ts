@@ -30,7 +30,7 @@ namespace Aufgabe09 {
         let response: Response = await fetch(_url, { method: "get" });
         let response2: string = await response.text();
         let arraySplit: string[] = response2.split("angemeldet");
-        let jsonString: string = JSON.parse(arraySplit[1]);
+        let jsonString: string = JSON.parse(arraySplit[0]);
         console.log(jsonString);
       }
 
