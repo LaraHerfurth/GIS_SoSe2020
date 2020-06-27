@@ -27,7 +27,7 @@ var Aufgabe09;
         let response = await fetch(_url, { method: "get" });
         let response2 = await response.text();
         let arraySplit = response2.split("angemeldet");
-        let jsonString = JSON.parse(arraySplit[1]);
+        let jsonString = JSON.parse(arraySplit[0]);
         console.log(jsonString);
     }
 })(Aufgabe09 || (Aufgabe09 = {}));
