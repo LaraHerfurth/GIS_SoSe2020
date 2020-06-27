@@ -22,14 +22,14 @@ namespace Aufgabe09 {
     async function communicateHTML(_url: RequestInfo): Promise<void> {
         let response: Response = await fetch(_url, { method: "get" });
         let response2: string = await response.text();
-        let arraySplit: string[] = response2.split("###");
+        let arraySplit: string[] = response2.split("angemeldet");
         (<HTMLElement>document.getElementById("antwort")).innerHTML  = arraySplit[0];
       }
 
     async function communicateJSON(_url: RequestInfo): Promise<void> {
         let response: Response = await fetch(_url, { method: "get" });
         let response2: string = await response.text();
-        let arraySplit: string[] = response2.split("###");
+        let arraySplit: string[] = response2.split("angemeldet");
         let jsonString: string = JSON.parse(arraySplit[1]);
         console.log(jsonString);
       }
