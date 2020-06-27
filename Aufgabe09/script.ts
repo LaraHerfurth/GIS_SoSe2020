@@ -12,7 +12,7 @@ namespace Aufgabe09 {
     } 
 
     function handlebuttonjson(): void {
-        let formData: FormData = new FormData(document.forms[0]);
+        let formData: FormData = new FormData(document.forms[1]);
         let url: string = "https://gislaraserver.herokuapp.com/";
         let query: URLSearchParams = new URLSearchParams(<any> formData);
         url = url + "?" + query.toString();
@@ -30,7 +30,7 @@ namespace Aufgabe09 {
         let response: Response = await fetch(_url, { method: "get" });
         let response2: string = await response.text();
         let arraySplit: string[] = response2.split("angemeldet");
-        let jsonString: string = JSON.parse(arraySplit[0]);
+        let jsonString: string = JSON.parse(arraySplit[1]);
         console.log(jsonString);
       }
 
