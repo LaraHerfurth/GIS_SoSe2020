@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        table,th,td {border: 1px solid lightblue; border-collapse:collapse;padding:0px 10px}
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datenbank</title>
+</head>
+<body>
+    <h1>mongoDBrowser</h1>
+    <h3>Query parameters</h3>
+    <table>
+        <tbody>
+            <tr>
+                <th>key</th>
+                <th>current value</th>
+                <th>description</th>
+                <th>remark</th>
+            </tr>
+            <tr>
+                <td>u=</td>
+                <td>undefined</td>
+                <td>username</td>
+                <td>(may be omitted for local database)</td>
+            </tr>
+            <tr>
+                <td>p=</td>
+                <td>undefined</td>
+                <td>password</td>
+                <td>(required when username given)</td>
+            </tr>
+            <tr>
+                <td>a=</td>
+                <td><strong>missing</strong></td>
+                <td>database address</td>
+                <td>(required, everything right of '@')</td>
+            </tr>
+            <tr>
+                <td>n=</td>
+                <td><strong>missing</strong></td>
+                <td>database name</td>
+                <td>(required)</td>
+            </tr>
+            <tr>
+                <td>c=</td>
+                <td><strong>missing</strong></td>
+                <td>collection</td>
+                <td>(required)</td>
+            </tr>
+        </tbody>
+    </table>
+    <p>Example: 
+        <a href="https://mongodbnetbrowser.herokuapp.com/?u=LaraH&p=MongoDB&a=cluster0.p09hu.mongodb.net&n=Test&c=Students">Click here</a>
+    </p>   
+</body>
+</html>
