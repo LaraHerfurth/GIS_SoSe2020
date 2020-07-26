@@ -1,0 +1,142 @@
+[
+    {
+        "bild": "Bilder/Eis1.png",
+        "name": "Milch Schokolade",
+        "beschreibung": "Schoko geht immer",
+        "preis": 0.99,
+        "kategorie": "Eis"
+    },
+    {
+        "bild": "Bilder/Eis2.png",
+        "name": "Green Smoothie",
+        "beschreibung": "Ist bestimmt gesund",
+        "preis": 1.49,
+        "kategorie": "Eis"
+    },
+    {
+        "bild": "Bilder/Eis3.png",
+        "name": "Erdbeere",
+        "beschreibung": "Gehört in jede Eisdiele",
+        "preis": 0.99,
+        "kategorie": "Eis"
+    },
+    {
+        "bild": "Bilder/Eis4.png",
+        "name": "Kaffee",
+        "beschreibung": "Gut zum wach werden",
+        "preis": 1.19,
+        "kategorie": "Eis"
+    },
+    {
+        "bild": "Bilder/Eis5.png",
+        "name": "Stracciatella",
+        "beschreibung": "Wie in Italien",
+        "preis": 1.09,
+        "kategorie": "Eis"
+    },
+    {
+        "bild": "Bilder/Eis6.png",
+        "name": "Brombeere Joghurt",
+        "beschreibung": "Fruchtig frisch",
+        "preis": 1.29,
+        "kategorie": "Eis"
+    },
+    {
+        "bild": "Bilder/Eis7.png",
+        "name": "Mango",
+        "beschreibung": "Viitamiine sind wichtig",
+        "preis": 1.39,
+        "kategorie": "Eis"
+    },
+    {
+        "bild": "Bilder/Eis8.png",
+        "name": "Cheese Cake",
+        "beschreibung": "Ist suuper lecker",
+        "preis": 1.49,
+        "kategorie": "Eis"
+    },
+    {
+        "bild": "Bilder/Topping1.jpg",
+        "name": "Smarties",
+        "beschreibung": "Viele viele bunte...",
+        "preis": 0.19,
+        "kategorie": "Topping"
+    },
+    {
+        "bild": "Bilder/Topping2.jpg",
+        "name": "Erdbeeren",
+        "beschreibung": "Immer gut",
+        "preis": 0.39,
+        "kategorie": "Topping"
+    },
+    {
+        "bild": "Bilder/Topping3.jpg",
+        "name": "Loops",
+        "beschreibung": "Wem´s schmeckt!?",
+        "preis": 0.59,
+        "kategorie": "Topping"
+    },
+    {
+        "bild": "Bilder/Topping4.jpg",
+        "name": "Geraspelte Nüsse",
+        "beschreibung": "Unsere Empfehlung",
+        "preis": 0.29,
+        "kategorie": "Topping"
+    },
+    {
+        "bild": "Bilder/Topping5.jpg",
+        "name": "Ganze Nüsse",
+        "beschreibung": "Sind das Nüsse?",
+        "preis": 0.39,
+        "kategorie": "Topping"
+    },
+    {
+        "bild": "Bilder/Topping6.jpg",
+        "name": "Streusel",
+        "beschreibung": "Das Auge isst mit",
+        "preis": 0.19,
+        "kategorie": "Topping"
+    },
+    {
+        "bild": "Bilder/Topping7.jpg",
+        "name": "Blaubeeren",
+        "beschreibung": "Yummyyy!",
+        "preis": 0.39,
+        "kategorie": "Topping"
+    },
+    {
+        "bild": "Bilder/Topping8.jpg",
+        "name": "Gummibärchen",
+        "beschreibung": "Gehört das ins Eis?",
+        "preis": 0.19,
+        "kategorie": "Topping"
+    },
+    {
+        "bild": "Bilder/EisbecherKlein.jpg",
+        "name": "kleiner Eisbecher",
+        "beschreibung": "geeignet für 1-2 Kugeln",
+        "preis": 0.00,
+        "kategorie": "BecherWaffel"
+    },
+    {
+        "bild": "Bilder/EisbecherGroß.jpg",
+        "name": "großer Eisbecher",
+        "beschreibung": "geeignet für 3-4 Kugeln",
+        "preis": 0.00,
+        "kategorie": "BecherWaffel"
+    },
+    {
+        "bild": "Bilder/EiswaffelKlein.jpg",
+        "name": "kleine Eiswaffel",
+        "beschreibung": "geeignet für 1-2 Kugeln",
+        "preis": 0.00,
+        "kategorie": "BecherWaffel"
+    },
+    {
+        "bild": "Bilder/EiswaffelGroß.jpg",
+        "name": "große Eiswaffel",
+        "beschreibung": "4 Kugeln wird schwierig",
+        "preis": 0.00,
+        "kategorie": "BecherWaffel"
+    }
+    ]

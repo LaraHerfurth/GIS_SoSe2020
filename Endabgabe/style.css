@@ -1,0 +1,466 @@
+
+body {
+    background-color: #b0c4de;
+    color: #3f3f3f;
+    text-align: center;
+}
+
+.Navigation {
+    background-color: #3f3f3f;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 7.5%;
+    z-index: 100;
+}
+
+#iconLogo {
+    margin-top: 0.2%;
+    float: left;
+    margin-left: 2%;
+    width: 10%;
+    height: 90%; 
+}
+
+#iconHome {
+    margin-top: 0.4%;
+    float: right;
+    margin-right: 1.2%;
+    width: 2.8%;
+    height: 70%; 
+}
+
+#iconHome:hover {
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+
+#iconShoppingCart {
+    margin-top: 0.2%;
+    float: right;
+    margin-right: 4%;
+    width: 2.8%;
+    height: 90%; 
+}
+
+#iconShoppingCart:hover {
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+
+#divShoppingCart {
+    width: 99.7%;
+    height: 30%;
+    margin-top: 2%;
+    left: 0%;
+    background-color: #e7e7e7; 
+    position: fixed;
+    z-index: 100;
+    display: none;
+    border: solid #edb8be;
+}
+
+#neuesEis {
+    background-color: #b0c4de;
+    border: none;
+    height: 22%;
+    width: 10%;
+    position: absolute;
+    margin-top: 1.2%;
+    margin-left: 2%;
+}
+
+#neuesEis:hover {
+    background-color: #edb8be;
+    transition: 1s;
+}
+
+#warenkorbLöschen {
+    background-color: #b0c4de;
+    border: none;
+    height: 22%;
+    width: 10%;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+
+#warenkorbLöschen:hover {
+    background-color: #edb8be;
+    transition: 1s;
+}
+
+#bestellen {
+    background-color: #b0c4de;
+    border: none;
+    height: 22%;
+    width: 10%;
+    position: absolute;
+    margin-top: 8.8%;
+    margin-left: 2%;
+}
+
+#bestellen:hover {
+    background-color: #edb8be;
+    transition: 1s;
+}
+
+#ausgewählteProdukte {
+    margin-left: 14%;
+    text-align: left;
+}
+
+#gesamtpreis {
+    margin-left: 45%;
+    margin-top: 1.3%;
+    position: absolute;
+    }
+
+#anfangsbild {
+    margin-top: 2.6%;
+    width: 100%;
+    height: 100%; 
+}
+
+div {
+    display: block;
+}
+
+div img {
+    width: 100%;
+    height: 100%;
+}
+
+#kugeln {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kugeln {
+    width: 24.8%;
+    height: 50%; 
+    background-color: #e7e7e7;
+    margin: 0.2% auto auto auto;
+}
+
+#topping {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.topping {
+    width: 24.8%;
+    height: 50%; 
+    background-color: #e7e7e7;
+    margin: 0.2% auto auto auto;
+}
+
+#becherWaffel {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.becherWaffel {
+    width: 24.8%;
+    height: 50%; 
+    background-color: #e7e7e7;
+    margin: 0.2% auto auto auto;
+}
+
+.Warenkorb {
+    background-color: #b0c4de;
+    border: none;
+    padding: 3%;
+    margin-bottom: 4%;
+    margin-top: 4%;
+}
+
+.Warenkorb:hover {
+    background-color: #edb8be;
+    transition: 1s;
+}
+
+footer {
+    margin-bottom: 0%;
+    margin-top: 5%;
+    left: 0%;
+    width: 100%;
+    height: 60%;
+    background-color: #3f3f3f;
+    color: #e7e7e7;
+    position: absolute;
+    font-family: 'Lucida Sans Regular';
+}
+
+#anleitung {
+    width: 50%;
+    height: 36%;
+    margin-top: 4%;
+}
+
+#footerSchrift {
+    margin-top: 3.5%;
+}
+
+#formular {
+    background-color: #e7e7e7;
+    width: 30%;
+    margin-top: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid #edb8be;
+    padding-bottom: 3%;
+}
+
+#gesamtpreisFormular {
+    margin-top: 1%;
+    position: absolute;
+    left: 22.5%;
+    height: 5%;
+    width: 50%;
+}
+
+#input1 {
+    width: 50%;
+    margin-top: 15%;
+    margin-bottom: 1.4%;
+}
+
+#input2 {
+    width: 50%;
+    margin-bottom: 2%;
+}
+
+#input3 {
+    width: 50%;
+    margin-bottom: 2%;
+}
+
+#jetztBestellen {
+    margin-top: 8%;
+    width: 26%;
+    height: 2em;
+    background-color: #3f3f3f;
+    border-style: none;
+    color:#E7E7E7;
+}
+
+
+@media screen and (max-width: 1023px) {
+
+    .Navigation {
+        width: 100%;
+        height: 6%;
+    }
+
+    #iconLogo {
+        margin-top: 0.6%;
+        width: 22%;
+    }
+    
+    #iconHome {
+        margin-top: 1.2%;
+        margin-right: 2%;
+        width: 6%;
+        height: 70%; 
+    }
+
+    #iconHome:hover {
+        transform: none;
+    }
+
+    #iconShoppingCart {
+        margin-top: 0.4%;
+        margin-right: 4%;
+        width: 6.8%;
+        height: 90%; 
+    }
+
+    #iconShoppingCart:hover {
+        transform: none;
+    }
+
+    #divShoppingCart {
+        width: 99.5%;
+        height: 20%;
+        margin-top: 5.6%;
+    }
+
+    #neuesEis {
+        margin-top: 2%;
+    }
+    
+    #warenkorbLöschen {
+        margin-top: 10%;
+    }
+    
+    #bestellen {
+        margin-top: 18%;
+    }
+
+    #gesamtpreis {
+        margin-left: 62%;
+        margin-top: 2.1%;
+    }
+
+    #anfangsbild {
+        margin-top: 7%;
+    }
+
+    footer {
+        height: 35%;
+    }
+    
+    #anleitung {
+        height: 22%;
+        margin-top: 6%;
+    }
+
+    #formular {
+        width: 50%;
+        margin-top: 30%;
+        margin-bottom: 15%;
+    }
+
+    #gesamtpreisFormular {
+        margin-top: 2.2%;
+        left: 11%;
+    }
+
+    #footerFormular {
+        height: 30%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .Navigation {
+        width: 100%;
+        height: 6%;
+    }
+
+    #iconLogo {
+        margin-top: 0.6%;
+        width: 30%;
+    }
+    
+    #iconHome {
+        margin-top: 1.2%;
+        margin-right: 2%;
+        width: 8%;
+        height: 70%; 
+    }
+
+    #iconHome:hover {
+        transform: none;
+    }
+
+    #iconShoppingCart {
+        margin-top: 0.4%;
+        margin-right: 4%;
+        width: 9%;
+        height: 90%; 
+    }
+
+    #iconShoppingCart:hover {
+        transform: none;
+    }
+
+    #divShoppingCart {
+        width: 99%;
+        height: 40%;
+        margin-top: 6.2%;
+    }
+
+    #neuesEis {
+        height: 12%;
+        width: 30%;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    
+    #warenkorbLöschen {
+        height: 12%;
+        width: 30%;
+        margin-top: 2%;
+        margin-left: 35%;
+    }
+    
+    #bestellen {
+        height: 12%;
+        width: 30%;
+        margin-top: 2%;
+        margin-left: 68%;
+    }
+
+    #ausgewählteProdukte {
+        margin-left: 2.8%;
+        margin-top: 20%;
+    }
+
+    #gesamtpreis {
+        margin-left: 2.8%;
+        margin-top: 14%;
+        }
+
+    #anfangsbild {
+        margin-top: 8%;
+    }
+
+    .kugeln {
+        width: 49.4%;
+        height: 70%; 
+        margin-bottom: 0.4%;
+    }
+
+    .topping {
+        width: 49.4%;
+        height: 70%; 
+        margin-bottom: 0.4%;
+    }
+
+    .becherWaffel {
+        width: 49.4%;
+        height: 70%; 
+        margin-bottom: 0.4%;
+    }
+
+    footer {
+        height: 44%;
+    }
+    
+    #anleitung {
+        width: 60%;
+        height: 15%;
+        margin-top: 6%;
+    }
+    
+    #footerSchrift {
+        margin-top: 4%;
+    }
+    
+    #formular {
+        width: 60%;
+        margin-top: 25%;
+        padding-bottom: 6%;
+    }
+    
+    #gesamtpreisFormular {
+        margin-top: -4%;
+        left: 32%;
+    }
+
+    #input1 {
+        margin-top: 20%;
+    }
+
+    #jetztBestellen {
+        width: 50%;
+    }
+
+    #footerFormular {
+        height: 75%;
+    }
+}
+
