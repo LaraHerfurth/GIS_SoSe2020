@@ -1,0 +1,106 @@
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    height: 100%;
+    padding: 0;
+    overflow: hidden;
+    background-image: radial-gradient(circle, rgba(153,202,241,1) 0%, rgba(153,184,241,0.8239495627352503) 100%);
+}
+
+nav {
+    margin-bottom: 60px;
+}
+
+section {
+    display: inline-block;
+    margin: 20px;
+    width: 200px;
+}
+
+footer p {
+    margin-top: 50px;
+    font-size: 10px;
+    opacity: .5;
+}
+.eu{
+    transition: 1s;
+    filter: opacity(0.5);
+}
+
+ .eu:hover{
+    transform: scale(1.4); 
+    filter:opacity(1);
+ }
+
+ .africa{
+    transition: 1s;
+    filter: opacity(0.5);
+}
+
+ .africa:hover{
+    transform: scale(1.4);
+    filter:opacity(1); 
+ }
+
+ .na{
+    transition: 1s;
+    filter: opacity(0.5);
+}
+
+ .na:hover{
+    transform: scale(1.4); 
+    filter:opacity(1);
+ }
+
+ .sa{
+    transition: 1s;
+    filter: opacity(0.5);
+}
+
+ .sa:hover{
+    transform: scale(1.4); 
+    filter:opacity(1);
+ }
+
+ .asia{
+    transition: 1s;
+    filter: opacity(0.5);
+}
+
+ .asia:hover{
+    transform: scale(1.4); 
+    filter:opacity(1);
+ }
+
+ .aus{
+    transition: 1s;
+    filter: opacity(0.5);
+}
+
+ .aus:hover{
+    transform: scale(1.4); 
+    filter:opacity(1);
+ }
+
+ .co2bild{
+    width: 100px;
+    height: 50px;
+    z-index: 6000;
+}
+.co2Wrapper {
+    position: absolute;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    z-index: 1;
+
+}
+.co2Wrapper .fill {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: lightpink;
+    transition: 2s;
+    z-index: 2;
+}
